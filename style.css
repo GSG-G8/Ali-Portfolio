@@ -3,8 +3,9 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth ;
+    
   }
-  
+ 
 
 .navbar{
     display: flex;
@@ -12,11 +13,12 @@
     align-items: center;
     padding-left: 180px;
     padding-right: 180px;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.596);
     color: white;
     height: 80px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .nav-elements{
     text-decoration: none;
@@ -39,7 +41,7 @@
     text-align: center;  
     padding-top: 300px;
     color: white;
-    font-size: 100px;
+    font-size: 80px;
     
 }
 
@@ -47,7 +49,7 @@
     text-align: center;  
     color: white;
     line-height: 60px;
-    font-size: 50px;
+    font-size: 36px;
 }
 
 .background button{
@@ -62,4 +64,31 @@
     font-weight: bolder;
     box-shadow: none;
 }
+
+.about{
+    padding-left: 180px;
+    padding-right: 180px;
+    
+}
+.about h1 {
+    line-height: 100px;
+    text-align: center;
+}
+.about p {
+    width: auto;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+
+
+.about-content{
+    display: flex;
+    flex-direction: flex-start;
+    justify-content: space-between;
+}
+.about-content img{
+    height: 300px;
+}
+
 
