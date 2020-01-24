@@ -12,9 +12,54 @@
     align-items: center;
     padding-left: 180px;
     padding-right: 180px;
-    background-color: red;
+    background-color: rgba(0, 0, 0);
+    color: white;
     height: 80px;
+    position: fixed;
+    width: 100%;
 }
 .nav-elements{
     text-decoration: none;
 }
+
+.nav-elements a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+    
+}
+.background {
+    height: 100vh;
+    background: url(img/background.jpg);
+    background-size: 100% 100vh;
+  
+}
+
+.background h1{
+    text-align: center;  
+    padding-top: 300px;
+    color: white;
+    font-size: 100px;
+    
+}
+
+.background p{
+    text-align: center;  
+    color: white;
+    line-height: 60px;
+    font-size: 50px;
+}
+
+.background button{
+    margin-top: 30px;
+    position: absolute;
+    left: 40%;
+    height: 40px;
+    width: 300px;
+    text-decoration: none;
+    border: none;
+    outline-style: none;
+    font-weight: bolder;
+    box-shadow: none;
+}
+
