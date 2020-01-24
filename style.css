@@ -1,0 +1,20 @@
+* {
+    font-family: "Raleway", Times, serif;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth ;
+  }
+  
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 180px;
+    padding-right: 180px;
+    background-color: red;
+    height: 80px;
+}
+.nav-elements{
+    text-decoration: none;
+}
