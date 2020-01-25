@@ -6,6 +6,14 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+body {
+      background-color: rgb(221, 214, 221);
+
+}
+.logo{
+    text-decoration: none;
+    color: white;
+}
 
 .navbar {
   display: flex;
@@ -75,10 +83,9 @@
   padding-left: 180px;
   padding-right: 180px;
   display: inline-block;
-
 }
 .about h1 {
-  line-height: 200px;
+  line-height: 120px;
   text-align: center;
 }
 .about p {
@@ -93,24 +100,20 @@
   margin-bottom: 40px;
 }
 
-
 .services {
   text-align: center;
-  padding-left: 180px;
-  padding-right: 180px;
+    padding-left: 70px;
+    padding-right: 70px;
       margin: 0 auto;
-
 }
 
 .services h1 {
- 
   line-height: 200px;
 }
 
 ul {
   color: black;
   display: inline-block;
-  
 }
 
 ul li {
@@ -152,8 +155,86 @@ ul li:hover > button {
   padding: 10px 10px 10px 10px;
   color: white;
 }
-hr{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 70px;
+hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+
+.contact {
+  margin: 50px;
+  padding-left: 180px;
+  padding-right: 180px;
+}
+
+.contact h1 {
+    margin-bottom: 50px;
+}
+.form-group {
+    margin: 12px;
+}
+input {
+    background: #fff;
+    color: #333;
+    border: none;
+    outline-style: none;
+        width: 180px;
+
+}
+textarea {
+    background: #fff;
+    color: #333;
+    border: none;
+    outline-style: none;
+}
+button {
+        color: #252537;
+  
+    width: 180px;
+    height: 30px;
+    background: #fff;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+}
+.copy-right {
+    background-color: #222121;
+    height: 60px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 735px) {
+  .navbar {
+      padding-left: 30px;
+      padding-right: 30px;
+
+  }
+  .background button { 
+      left: 32%;
+  }
+  .about {
+    padding-left: 47px;
+  }
+  
+.contact {
+    padding-left: 48px;
+}
+.about p {
+    width: 445px;
+}
+}
+
+@media only screen and (max-width: 1160px) { 
+    .about p {
+    width: 445px;
+}
+
 }
