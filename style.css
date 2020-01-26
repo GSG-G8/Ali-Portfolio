@@ -10,10 +10,8 @@ body {
       background-color: rgb(221, 214, 221);
 
 }
-.logo{
-    text-decoration: none;
-    color: white;
-}
+
+
 
 .navbar {
   display: flex;
@@ -28,11 +26,15 @@ body {
   width: 100%;
   z-index: 5;
 }
-.nav-elements {
+.navbar__logo{
+    text-decoration: none;
+    color: white;
+}
+.navbar__elements {
   text-decoration: none;
 }
 
-.nav-elements a {
+.navbar__elements--item{
   text-decoration: none;
   margin-left: 50px;
   color: white;
@@ -43,21 +45,21 @@ body {
   background-size: 100% 100vh;
 }
 
-.background h1 {
+.background__h1{
   text-align: center;
   padding-top: 300px;
   color: white;
   font-size: 80px;
 }
 
-.background p {
+.background__p{
   text-align: center;
   color: white;
   line-height: 60px;
   font-size: 36px;
 }
 
-.background button {
+.background__button{
   margin-top: 30px;
   position: absolute;
   left: 43%;
@@ -74,7 +76,7 @@ body {
   transition: 0.3s;
 }
 
-.background button:hover {
+.background__button:hover{
   background: rgba(255, 255, 255, 0.8);
   color: #2e2e2e;
 }
@@ -84,16 +86,16 @@ body {
   padding-right: 180px;
   display: inline-block;
 }
-.about h1 {
+.about__h1 {
   line-height: 120px;
   text-align: center;
 }
-.about p {
+.about__p {
   width: auto;
   text-align: justify;
 }
 
-.about-content img {
+.about__about-content--img{
   height: 300px;
   float: left;
   margin-right: 50px;
@@ -107,7 +109,7 @@ body {
       margin: 0 auto;
 }
 
-.services h1 {
+.services__h1{
   line-height: 200px;
 }
 
@@ -167,7 +169,7 @@ hr {
   padding-right: 180px;
 }
 
-.contact h1 {
+.contact__h1{
     margin-bottom: 50px;
 }
 .form-group {
@@ -217,7 +219,7 @@ button {
       padding-right: 30px;
 
   }
-  .background button { 
+  .background__button { 
       left: 32%;
   }
   .about {
@@ -227,7 +229,7 @@ button {
 .contact {
     padding-left: 48px;
 }
-.about p {
+.about__p {
     width: 445px;
 }
 }
