@@ -18,26 +18,26 @@
   <body>
     <header>
       <nav class="navbar">
-        <div class="logo-head">
-          <a class="logo" href="#"><h1>ALI</h1></a>
+        <div>
+          <a class="navbar__logo" href="#"><h1>ALI</h1></a>
         </div>
-        <div class="nav-elements">
-          <a href="#about-me">About me</a>
-          <a href="#services">Services</a>
-          <a href="#contact-me">Contact me</a>
+        <div class="navbar__elements">
+          <a class="navbar__elements--item" href="#about-me">About me</a>
+          <a class="navbar__elements--item" href="#services">Services</a>
+          <a class="navbar__elements--item" href="#contact-me">Contact me</a>
         </div>
       </nav>
       <div class="background">
-        <h1>Ali Dahdouh</h1>
-        <p>I am a Software Developer</p>
-        <button>Get in touch</button>
+        <h1 class="background__h1">Ali Dahdouh</h1>
+        <p class="background__p">I am a Software Developer</p>
+        <button class="background__button">Get in touch</button>
       </div>
     </header>
     <section id="about-me" class="about">
-      <h1>About me</h1>
-      <div class="about-content">
-        <img src="img/about-1.jpg" alt="" />
-        <p>
+      <h1 class="about__h1">About me</h1>
+      <div class="about__about-content">
+        <img class="about__about-content--img" src="img/about-1.jpg" alt="people-in-a-office" />
+        <p class="about__p">
           Welcome, my name is Ali. I am a software developer from Palestine who
           loves to write software to build great products and help businesses
           succeed with their goals. I appreciate good design and I am seeing
@@ -52,7 +52,7 @@
     <hr>
 
     <section id="services" class="services">
-      <h1>My Services</h1>
+      <h1 class="services__h1">My Services</h1>
       <p>
         Here is my services
         <ul>
@@ -84,7 +84,7 @@
     
     <hr>
     <section id="contact-me" class="contact">
-      <h1>Contact Me</h1>
+      <h1 class="contact__h1">Contact Me</h1>
       <form action="">
         <div class="form-group">
           <label for="name">Name:</label>
